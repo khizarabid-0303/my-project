@@ -1,175 +1,643 @@
 @media screen and (max-width: 1100px) {
-    .option-box {
-        width:60%;
-        margin-left: 15%;
-      }
-      .logo{
-        width: 10%;
-      }
-      .page2-btn {
-        width: 40%;
-      }
-/* =============================== home page ====================================== */
-      .homepage {
-        position: absolute;
-        width: 55%;
-        height: 83vh;
-        left: 6%;
-        border-radius: 40px;
-        display: flex;
-        flex-direction: row;
-        justify-items: center;
-      }
-      .btn-box {
-        width: 80%;
-        height: 90px;
-        margin-top: 10%;
-      }
-/* =============================== services ====================================== */  
-.ser-options {
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  margin-top: 5%;
-  background-color: #f3f5ff;
+  .option-box {
+    width: 60%;
+    margin-left: 15%;
+  }
+  .logo {
+    width: 25%;
+  }
+
+  .page2-btn {
+    width: 40%;
+  }
+  /* =============================== home page ====================================== */
+  .homepage {
+    position: absolute;
+    width: 55%;
+    height: 83vh;
+    left: 6%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+  }
+  .btn-box {
+    width: 80%;
+    height: 90px;
+    margin-top: 10%;
+  }
+  /* =============================== services ====================================== */
+  .ser-options {
+    width: 90%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    background-color: #f3f5ff;
+  }
+  .ser-option-box {
+    width: 25%;
+    height: 300px;
+    margin: 0% 6% 0 6%;
+  }
+
+  .option-img {
+    width: 130px;
+    max-height: 130px;
+    font-size: 5.5vw;
+  }
+
+  .ser-ui {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ui-text {
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    color: #1e2761;
+  }
+
+  .ui-ux-text {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ui-ux-detail {
+    width: 90%;
+    text-align: center;
+    font-size: 1.1vw;
+    letter-spacing: 2px;
+  }
+
+  /* =============================== Why us ====================================== */
+  .why-us-heading {
+    height: 90vh;
+    width: 50%;
+  }
+  .why-box-1 {
+    width: 90%;
+    justify-content: center;
+  }
+  .box2-text {
+    width: 45%;
+    height: auto;
+    margin-top: 200px;
+  }
+
+  .box2-heading {
+    width: 100%;
+    height: 20px;
+    letter-spacing: 1.5px;
+  }
+
+  .box2-detail {
+    font-size: 2.3vw;
+    letter-spacing: 0.2em;
+  }
+
+  .box2-text-detail {
+    font-size: 1.3vw;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    margin-top: 15px;
+  }
+
+  .moving-box-area {
+    width: 25%;
+    margin-left: 2.5%;
+  }
 }
-.ser-option-box {
-  width: 25%;
-  height: 300px;
-  margin: 5% 8% 0 8%;
-} 
 
-.option-img {
-  width: 130px;
-  max-height: 130px;
-  font-size: 4vw;
-}
-/* =============================== Why us ====================================== */ 
-.why-box-1{
-  width: 90%;
-  justify-content: center;
-}
-.box2-text {
-  width: 45%;
-  height: auto;
-  margin-top: 200px;
-}
+@media screen and (max-width: 900px) {
+  /* =============================== Why us ====================================== */
+  .why-us-heading {
+    height: 45vh;
+    width: 75%;
+  }
 
-.box2-heading {
-  width: 100%;
-  height: 20px;
-  letter-spacing: 1.5px;
+  .why-us-keyword {
+    font-size: 6vw;
+    letter-spacing: 2.3px;
+  }
+  .why-box-1 {
+    width: 95%;
+    justify-content: center;
+  }
+  .box2-text {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 0%;
+  }
 
-}
+  .box2-heading {
+    width: 100%;
+    height: 30px;
+    letter-spacing: 1.5px;
+    font-size: 2vw;
+  }
 
-.box2-detail {
-  font-size: 2.3vw;
-  letter-spacing: 0.2em;
-}
+  .box2-detail {
+    font-size: 4vw;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+  }
 
-.box2-text-detail {
-  font-size: 1.3vw;
-  font-weight: 500;
-  letter-spacing: 0.3em;
-  margin-top: 15px;
-}
+  .box2-text-detail {
+    font-size: 1.9vw;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    margin-top: 15px;
+  }
 
+  .moving-box-area {
+    width: 45%;
+    margin-left: 2.5%;
+  }
 
+  .moving-box-h1 {
+    font-size: 2.1vw;
+    font-weight: 650;
+    letter-spacing: 3px;
+  }
 
-.moving-box-area {
-  width: 25%;
-  margin-left: 2.5%;
-}
+  .moving-box-h2 {
+    font-size: 1.8vw;
+    font-weight: 550;
+    letter-spacing: 3px;
+  }
+  /* ================================ Our Project area (900px) ==================================== */
+  .our-project-heading {
+    width: 100%;
+    margin-top: 100px;
+    min-height: 350px;
+    text-align: center;
+  }
+  .our-project-heading-area {
+    min-height: 65vh;
+    width: 58%;
+  }
 
+  .our-project-h1 {
+    font-size: 5.5vw;
+    font-weight: 650;
+    color: #30ffe4;
+    letter-spacing: 2px;
+  }
+  .our-projects-area {
+    width: 100%;
+    min-height: 190vh;
+  }
+  .our-project-box1 {
+    width: 45%;
+    height: 250px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 15px 15px 6px #f3f5ff;
+    overflow: hidden;
+  }
+
+  .our-project-box1-heading {
+    font-size: 1.7vw;
+    margin-left: 35px;
+  }
+
+  .our-project-box1-heading-text {
+    font-size: 1.7vw;
+    letter-spacing: 1.5px;
+    z-index: 6;
+  }
 }
 
 @media screen and (max-width: 850px) {
+  .logo {
+    width: 40%;
+  }
   .solution {
     font-weight: 600;
-    font-size:4vw;
+    font-size: 4vw;
     color: #30ffe4;
   }
   .option-box {
     display: none;
   }
-  .hamburger{
+  .hamburger {
     display: flex;
-    margin-left: 10%;
   }
-  .ham{
+  .ham {
     background-color: #00545a;
   }
-  .bttn-box{
-  margin-left: 0;
-  width: 25%;
-  margin-left: 45%;
+  .bttn-box {
+    margin-left: 0;
+    width: 20%;
+    margin-left: 20%;
   }
-  .bttn-1{
+  .bttn-1 {
     font-size: 2vw;
     width: 100%;
     letter-spacing: 2.5px;
   }
-  
+
   /* .page2-btn{
     font-size: 2.5vw;
 
   } */
 }
 
-@media screen and (max-width: 900px){
-  /* =============================== Why us ====================================== */ 
-.why-box-1{
-  width: 95%;
-  justify-content: center;
-}
-.box2-text {
-  width: 100%;
-  height: auto;
-  margin-top: 100px;
-  margin-left: 0%;
-}
+@media screen and (max-width: 750px) {
+  .logo {
+    width: 45%;
+    display: flex;
+    align-items: center;
+  }
 
-.box2-heading {
-  width: 100%;
-  height: 30px;
-  letter-spacing: 1.5px;
-  font-size: 2vw;
+  /* =============================== what we do ( 750px ) ====================================== */
 
-}
+  .ser-options {
+    width: 90%;
+    height: auto;
+  }
+  .ser-option-box {
+    width: 45%;
+    margin-top: 20px;
+  }
 
-.box2-detail {
-  font-size: 4vw;
-  letter-spacing: 4px;
-  margin-top: 20px;
-  flex-wrap: wrap;
-  display: flex;
+  .ser-option-img {
+    width: 120px;
+    min-height: 120px;
+  }
+
+  .ser-ui {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ui-text {
+    font-size: 2vw;
+    letter-spacing: 1px;
+    color: #1e2761;
+  }
+
+  .ui-ux-text {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    background-color: ;
+  }
+
+  .ui-ux-detail {
+    width: 90%;
+    text-align: center;
+    font-size: 1.6vw;
+    letter-spacing: 2px;
+  }
+
+  /* =============================== Why us (750 px) ====================================== */
+
+  .moving-box-h1 {
+    font-size: 1.8vw;
+    font-weight: 650;
+    letter-spacing: 3px;
+    color: white;
+  }
+
+  .moving-box-h2 {
+    font-size: 1.7vw;
+    font-weight: 550;
+    letter-spacing: 2.5px;
+    color: white;
+    margin-top: 15px;
+  }
+
+  /* ================================ Our Project area (750 px) ==================================== */
+  .our-projects-area {
+    width: 100%;
+    min-height: 280vh;
+    left: 0%;
+  }
+  .our-project-heading {
+    width: 100%;
+    margin-top: 100px;
+    min-height: 350px;
+  }
  
-}
+  .our-project-box1 {
+    margin-top: 30px;
+  }
 
-.box2-text-detail {
-  font-size: 1.9vw;
-  font-weight: 500;
-  letter-spacing: 0.3em;
-  margin-top: 15px;
-}
+  .project-box1-img1 {
+    padding-left: 9%;
+    width: 60px;
+    font-size: 4vw;
+  }
 
-.moving-box-area {
-  width: 45%;
-  margin-left: 2.5%;
-}
-/* ================================ Our Project area ==================================== */
-.our-projects-area{
+  .our-project-box1-heading {
+    font-size: 1.9vw;
+    margin-left: 25px;
+    color: #00454a;
+  }
+
+  .our-project-box1-heading-detail {
+    width: 80%;
+    height: 130px;
+    margin-left: 10%;
+  }
+
+  /* ================================ impact area (750 px) ==================================== */
+.impt {
+  min-height: 70vh;
   width: 100%;
-  min-height: 190vh;
+  background-color: #00454a;
 }
-.our-project-box1{
-  width: 45%;
-  height: 180px;
-  border-radius: 15px;
-  position: relative;
-  box-shadow: 15px 15px  6px #f3f5ff;
-  overflow: hidden;
+  .impt-text-area {
+    font-size: 1.9vw;
+    letter-spacing: 2px;
+    font-weight: 900;
+  }
+
+  .impt-line {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .impt-i1 {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    height: 50px;
+    width: 30%;
+  }
+  .btn {
+    font-size: 1.8vw;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .form1 {
+    height: auto;
+    width: 90%;
+  }
 }
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    width: 100%;
+    height: 80px;
+    
+  }
+  .logo {
+    width: 35%;
+  }
+
+    .solution {
+    font-size: 2.5vw;
+  }
+
+  .bttn-box {
+    width: 30%;
+    margin-left: 15%;
+  }
+  .bttn-1 {
+    font-size: 2vw;
+    width: 100%;
+    letter-spacing: 2.5px;
+  }
+
+  .hamburger{
+    margin-left: 5%;
+    width: 20%;
+  }
+
+  .homepage {
+  width: 85%;
+  height: 30vh;
+  left: 2.5%;
+  top: 25%;
+}
+
+.page2 {
+  min-height: 100%;
+}
+
+.text1 {
+  font-size: 3vw;
+  color: white;
+  letter-spacing: 1.5px;
+  margin-top: 20%;
+}
+
+.text2 {
+  font-size: 3vw;
+
+  color: white;
+  letter-spacing: 1.5px;
+  margin-left: 10%;
+}
+
+.text3 {
+  font-size: 1.8vw;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 4%;
+  width: 85%;
+  margin-left: 6%;
+  color: white;
+}
+
+.btn-box {
+  width: 100%;
+  height: 15vh;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.page2-btn {
+  z-index: 3;
+  padding: 0.5rem;
+  border-radius: 30px;
+  color: white;
+  border: 2px solid #00454a;
+  font-size: 1.3vw;
+  font-weight: 600;
+  letter-spacing: 2px;
+  width: 30%;
+}
+  /* =============================== what we do (600 px) ====================================== */
+  .ser-options {
+    width: 90%;
+    height: auto;
+  }
+  .ser-option-box {
+    width: 45%;
+    height: 250px;
+    margin-top: 20px;
+  }
+
+  .ser-option-img {
+    width: 60px;
+    min-height: 60px;
+  }
+
+  .option-img {
+  
+  font-size: 6vw;
+
+}
+
+  .ser-ui {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ui-text {
+    font-size: 2vw;
+    letter-spacing: 1px;
+    color: #1e2761;
+  }
+
+  .ui-ux-text {
+    width: 100%;
+    height: 100px;
+  }
+
+  .ui-ux-detail {
+    width: 90%;
+    text-align: center;
+    font-size: 2vw;
+    letter-spacing: 2px;
+  }
+  /* =============================== Why us (600 px) ====================================== */
+  .why-us-heading-div {
+    min-height: 60vh;
+    width: 100%;
+  }
+  .why-us-heading {
+    height: 20px;
+    width: 75%;
+    background-color: #00454a;
+    clip-path: polygon(25% 20%, 75% 20%, 100% 50%, 75% 80%, 25% 80%, 0% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .moving-box-area {
+    width: 80%;
+  }
+
+  .moving-box-h1 {
+    font-size: 4vw;
+    font-weight: 650;
+    letter-spacing: 3px;
+  }
+
+  .moving-box-h2 {
+    font-size: 3.5vw;
+    font-weight: 550;
+    letter-spacing: 3px;
+  }
+
+  .why-btn-box {
+  width: 80%;
+  margin-top: 10%;
+}
+
+.why-btn {
+  padding: 0.5rem;
+  border-radius: 30px;
+  color: #00454a;
+  border: 2px solid #30ffe4;
+  font-size: 1.7vw;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+  /* =============================== our project (600 px) ====================================== */
+
+  .our-project-box1 {
+    width: 75%;
+    height: 200px;
+    margin-top: 10px;
+  }
+  .project-box1-img1 {
+    padding-left: 6%;
+    width: 60px;
+    font-size: 35px;
+  }
+  .our-project-box1-heading {
+    font-size: 3.5vw;
+    margin-left: 30px;
+  }
+  .our-project-box1-heading-text {
+    font-size: 2.5vw;
+    letter-spacing: 2.5px;
+  }
+  .footer-areaf {
+    display: none;
+  }
+
+.our-project-heading-area {
+  min-height: 50vh;
+  width: 70%;
+}
+  /* =============================== Impact area (600 px) ====================================== */
+.impt-text {
+  height: 60px;
+}
+
+.impt-text-area {
+  font-size: 2.2vw;
+}
+.impt-line {
+  height: 150px;
+}
+.impt-line2 {
+  height: 150px;
+}
+
+.button-area {
+  height: 60px;
+}
+.button {
+    height: 50px;
+    width: 35%;
+  }
+  .btn {
+    font-size: 2.1vw;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+  }
 }

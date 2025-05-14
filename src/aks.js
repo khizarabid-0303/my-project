@@ -29,7 +29,7 @@ WWD.addEventListener('mousemove',function(dets){
 
 
 
-gsap.from(".solution , .my-1",{
+gsap.from(".solution , .brainairy",{
     opacity:0,
     x: -30,
     delay: 0.5,
