@@ -233,6 +233,7 @@
   }
   .hamburger {
     display: flex;
+    margin-left: 5%;
   }
   .ham {
     background-color: #00545a;
@@ -252,6 +253,16 @@
     font-size: 2.5vw;
 
   } */
+
+  .res-nav {
+  min-height: 75vh;
+  top: 80px;
+}
+
+.res-text {
+  font-size: 2.5vw;
+  font-weight: 700;
+}
 }
 
 @media screen and (max-width: 750px) {
@@ -261,6 +272,13 @@
     align-items: center;
   }
 
+  .hamburger{
+    margin-left: 6%;
+  }
+
+   .bttn-box {
+    margin-left: 10%;
+  }
   /* =============================== what we do ( 750px ) ====================================== */
 
   .ser-options {
@@ -325,7 +343,7 @@
   /* ================================ Our Project area (750 px) ==================================== */
   .our-projects-area {
     width: 100%;
-    min-height: 220vh;
+    min-height: 235vh;
     left: 0%;
   }
   .our-project-heading {
@@ -425,7 +443,7 @@
 
   .bttn-box {
     width: 30%;
-    margin-left: 8%;
+    margin-left: 0%;
     height: 60px;
   }
   .bttn-1 {
@@ -439,6 +457,16 @@
     width: 15%;
     height: 30px;
   }
+
+    .res-nav {
+  min-height: 60vh;
+  top: 70px;
+}
+
+.res-text {
+  font-size: 3.5vw;
+  font-weight: 700;
+}
 
   .WWD {
 

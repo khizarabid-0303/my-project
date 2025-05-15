@@ -68,7 +68,7 @@ document.querySelectorAll(".moving-box-hover").forEach((box) => {
       gsap.to(box, {
         opacity: 0,
         y: 20,
-        duration: 0.3
+        duration: 0.2
       });
     });
   });
@@ -86,22 +86,20 @@ let menu = document.querySelector(".hamburger");
 let close = document.querySelector(".close");
 let tl = gsap.timeline();
 
-tl.from(".res-nav", {
-  top: -200,
+tl.to(".res-nav", {
+  scale: 1,
   duration: 0.6,
-  display: flex,
 });
 
-tl.from(".res-text", {
-  x: 150,
-  duration: 0.7,
-  stagger: 0.3,
-  opacity: 0,
-});
+// tl.from(".res-nav .res-text", {
+//   duration: 0.7,
+//   stagger: 0.3,
+//   opacity: 0,
+// });
 
-tl.from(".side-nav i", {
+tl.from(".close", {
   x: 150,
-  duration: 0.7,
+  duration: 0.5,
   stagger: 0.3,
   opacity: 0,
 });
