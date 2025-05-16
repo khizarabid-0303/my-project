@@ -265,7 +265,7 @@
 }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
   .logo {
     width: 45%;
     display: flex;
@@ -343,7 +343,7 @@
   /* ================================ Our Project area (750 px) ==================================== */
   .our-projects-area {
     width: 100%;
-    min-height: 235vh;
+    min-height: max-content;
     left: 0%;
   }
   .our-project-heading {
@@ -376,7 +376,7 @@
 
   /* ================================ impact area (750 px) ==================================== */
   .impt {
-    min-height: 70vh;
+    min-height: max-content;
     width: 100%;
     background-color: #00454a;
   }
@@ -464,7 +464,7 @@
 }
 
 .res-text {
-  font-size: 3.5vw;
+  font-size: vw;
   font-weight: 700;
 }
 
@@ -616,9 +616,13 @@
 
   /* =============================== our project (600 px) ====================================== */
 
+  .our-projects-area{
+    min-height: max-content;
+    max-height: 300vh;
+  }
   .our-project-box1 {
     width: 75%;
-    height: 200px;
+    min-height: 200px;
     margin-top: 10px;
   }
   .project-box1-img1 {
@@ -671,3 +675,4 @@
     color: white;
   }
 }
+
