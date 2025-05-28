@@ -423,25 +423,26 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 450px) {
   .navbar {
     width: 100%;
-    height: 70px;
+    height: 50px;
   }
 
 .brainairy{
-  font-size: 4.5vw;
+  font-size: 5vw;
   color: #00454a;
   left: 1%;
 }
   .solution {
-    font-size: 2vw;
+    font-size: 4vw;
     bottom: 0%;
     margin-left: 2px;
     margin-top: 20px;
   }
 
   .bttn-box {
+    display: none;
     width: 30%;
     margin-left: 0%;
     height: 60px;
@@ -453,7 +454,7 @@
   }
 
   .hamburger {
-    margin-left: 5%;
+    margin-left: 35%;
     width: 15%;
     height: 30px;
   }
@@ -492,22 +493,21 @@
   }
 
   .text1 {
-    font-size: 3.5vw;
-    letter-spacing: 1.5px;
-    margin-top: 20%;
+    font-size: 6vw;
+    margin-top: 40%;
   }
 
   .text2 {
-    font-size: 3.5vw;
+    font-size: 6vw;
     color: white;
     letter-spacing: 1.5px;
     margin-left: 10%;
   }
 
   .text3 {
-    font-size: 2.5vw;
-    font-weight: 600;
-    letter-spacing: 2.5px;
+    font-size: 4vw;
+    font-weight: 400;
+    letter-spacing: 1.5px;
      }
 
   .btn-box {
@@ -519,19 +519,28 @@
     justify-content: space-evenly;
   }
   .page2-btn {
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-weight: 650;
-    letter-spacing: 2px;
+    background-color: #00454a;
   }
   /* =============================== what we do (600 px) ====================================== */
   .ser-options {
     width: 90%;
     height: auto;
+    background-color: transparent;
   }
   .ser-option-box {
     width: 45%;
     height: 250px;
     margin-top: 20px;
+  }
+
+  .ser-text{
+    font-size: 7vw;
+  }
+
+  .ser-text2{
+    font-size: 4vw;
   }
 
   .ser-option-img {
@@ -570,7 +579,7 @@
   }
   /* =============================== Why us (600 px) ====================================== */
   .why-us-heading-div {
-    min-height: 60vh;
+    min-height: 40vh;
     width: 100%;
   }
   .why-us-heading {
@@ -583,10 +592,21 @@
     justify-content: center;
   }
 
+  .box2-text{
+    margin: 5%;
+  }
+
+  .box2-heading{
+    font-size: 3.5vw;
+  }
+
   .moving-box-area {
     width: 80%;
   }
 
+  .box2-text-detail{
+    font-size: 3vw;
+  }
   .moving-box-h1 {
     font-size: 4vw;
     font-weight: 650;
@@ -609,16 +629,30 @@
     border-radius: 30px;
     color: #00454a;
     border: 2px solid #30ffe4;
-    font-size: 1.7vw;
+    font-size: 4vw;
     letter-spacing: 2px;
     width: 100%;
   }
 
   /* =============================== our project (600 px) ====================================== */
 
+  .our-project-heading{
+    margin: 0;
+    min-height: 50vh;
+  }
+
+  .our-project-heading-area {
+    min-height: 40vh;
+    width: 80%;
+  }
+
+  .our-project-h1{
+    font-size: 8vw;
+  }
+
   .our-projects-area{
     min-height: max-content;
-    max-height: 300vh;
+    max-height: 75vh;
   }
   .our-project-box1 {
     width: 75%;
@@ -642,10 +676,7 @@
     display: none;
   }
 
-  .our-project-heading-area {
-    min-height: 40vh;
-    width: 80%;
-  }
+  
   /* =============================== Impact area (600 px) ====================================== */
   .impt-text {
     height: 60px;
